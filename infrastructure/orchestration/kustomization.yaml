@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: travel-agent
+resources:
+  - platform.yaml
+images:
+  - name: travel-agent-backend
+    newName: ghcr.io/example/ai-travel-agent-backend
+    newTag: replace-with-release-tag
+  - name: travel-agent-frontend
+    newName: ghcr.io/example/ai-travel-agent-frontend
+    newTag: replace-with-release-tag

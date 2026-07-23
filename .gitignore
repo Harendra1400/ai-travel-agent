@@ -1,0 +1,67 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and runtime artifacts
+*.log
+logs/
+*.pid
+*.pid.lock
+tmp/
+temp/
+
+# JavaScript and TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Test and browser tooling
+test-results/
+playwright-report/
+blob-report/
+
+# Infrastructure tooling
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Local container overrides and data
+docker-compose.override.yml
+.docker/
+volumes/
+
+# Generated documentation and artifacts
+site/
+artifacts/
